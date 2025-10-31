@@ -1,24 +1,22 @@
 # pdf-comic-extractor
 
-A simple tool for extracting images from PDF file.
-
-This tool usually use for PDF format Comic books.
+A simple tool for extracting images from PDF files, typically used for comic books in PDF format.
 
 # Dependencies
 
-This tool is written with Java. It requires JDK21 or above for development, or JRE21 or above for using.
+This tool is written in Java. It requires **JDK 21** or later for development, or **JRE 21** or later to run.
 
 # Usage
 
-Open a terminal, type command below:
+Open a terminal and run the following command:
 
 ```shell
 java -jar pdf-comic-extractor-<version>.jar --pdf-path=<path/to/pdf/file> --comic-name=<comic_name> --dpi=300
 ```
 
-By default, `dpi` is **300** if it is not specified.
+By default, the dpi value is set to **300** if not specified.
 
-The argument `comic-name` is used for creating a folder to storee the image files if is specified.
+The `comic-name` argument is used to create a folder to store the image files when specified.
 
 # Roadmap
 
